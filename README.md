@@ -14,7 +14,7 @@ Data Transmission: UART transmits data serially, one bit at a time, over two lin
 
 ## Receiver Time Diagram
 
-<img src="images/example.png" width="300" />
+![<img src="images/example.png" width="300" />](https://github.com/SohaibAlaraby/Simple_Uart/blob/c0e2a4763548e5af3ae88bf76f13a7282774e147/images/receiver_td.png)
 
 ## Transmitter Time Diagram
 
