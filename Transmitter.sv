@@ -1,22 +1,3 @@
-/*interface Uart_intf(input clk);
-
-logic [7:0] data;	//8bit register to save data before sending
- 
-logic Tx_rst;			//reset TX 
-logic Rx_rst;			//and RX
-logic Start;			//to start Transmition 
-bit done;
-bit done_RX;			//when Transmition ends done will raise
-logic transfere_data;		//line connect between TX and Rx
-logic [7:0] data_recieved;
-
-modport TX(input clk,Start,Tx_rst,data,output done,transfere_data);
-modport RX(input clk,Rx_rst,transfere_data,output done_RX,data_recieved);
-modport TX_tb(output Start,Tx_rst,data,input clk, done,transfere_data);
-modport RX_tb(input clk,output Rx_rst,transfere_data,input done_RX,data_recieved);
-endinterface*/
-
-
 module Transmitter(
 input bit clk,
 input logic Start,
