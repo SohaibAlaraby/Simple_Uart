@@ -19,8 +19,6 @@ logic [3:0] bit_counter;
 logic State;
 logic Start;
 
-//enum logic [1:0] {INIT, DATA} fsm_state;
-
 always_ff @(posedge Rst_tx) begin  : reset
     if(Rst_tx)begin
         Baudrate_counter <= 8'b0;
