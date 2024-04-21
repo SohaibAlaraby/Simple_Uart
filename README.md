@@ -21,3 +21,4 @@ Data Transmission: UART transmits data serially, one bit at a time, over two lin
 ![<img src="images/example.png" width="300" />](https://github.com/SohaibAlaraby/Simple_Uart/blob/436169928ea70ba42c635e971ca94d8a0ccc0e20/images/sending_td.png)
 
 ## Results
+![<img src="images/example.png" width="300" />](https://github.com/SohaibAlaraby/Simple_Uart/blob/1c392e2bdfe37f24e631f481347b3f4ba8457018/images/waveform.png)
