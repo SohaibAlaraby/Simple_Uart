@@ -1,1 +1,38 @@
-# Simple_Uart
+# Simple UART
+
+UART stands for Universal Asynchronous Receiver/Transmitter. It's a hardware communication protocol used for serial communication between devices. UART is commonly used in embedded systems and microcontrollers to facilitate communication with peripherals like sensors, displays, and other microcontrollers.
+Data Transmission: UART transmits data serially, one bit at a time, over two lines: one for transmitting (TX) and one for receiving (RX). Start and Stop Bits: Each data frame typically starts with a start bit and ends with one or more stop bits. These bits help synchronize the receiving and transmitting devices. Baud Rate: The baud rate specifies the speed of data transmission, indicating how many bits per second (bps) are being sent. Common baud rates include 9600, 115200, etc. Asynchronous Communication: UART operates asynchronously, meaning that the transmitting and receiving devices don't share a common clock signal. Instead, they rely on the start and stop bits for synchronization. Data Frame: A typical UART data frame consists of a start bit, data bits (usually 8 bits), an optional parity bit for error checking, and one or more stop bits.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
