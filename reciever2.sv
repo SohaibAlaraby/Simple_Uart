@@ -76,16 +76,13 @@ always_ff @(Rs232) begin : State1
     if(!State && !Rs232 && bit_counter==0)begin
         State <= 1'b1;
     end 
-    
-
-
 end
 
 always_ff @(posedge clk) begin : done1
     
   done <= done & 0;
 end
-
+//for debuging and waveform visualization
 assign Baudrate_counter_ = Baudrate_counter;
 assign bit_flag_ = bit_flag;
 assign bit_counter_ = bit_counter;
