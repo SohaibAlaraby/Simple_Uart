@@ -5,7 +5,7 @@ Data Transmission: UART transmits data serially, one bit at a time, over two lin
 
 ## Receiver and Transmitter overview
 
-<img src="images/example.png" width="300" />
+![<img src="images/example.png" width="300" />](https://github.com/SohaibAlaraby/Simple_Uart/blob/610f0a2fc5fc12fff783e0bd5bc5d92e2afa757d/images/receiver_transmitter.png)
 
 ## UART Data Frame
 
